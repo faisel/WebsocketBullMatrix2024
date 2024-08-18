@@ -1,0 +1,7 @@
+fastapi==0.88.0
+pytz==2023.3
+requests==2.31.0
+unicorn-binance-websocket-api==2.8.0
+uvicorn==0.22.0
+python-dotenv==1.0.0
+asyncio

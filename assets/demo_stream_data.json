@@ -1,0 +1,19 @@
+{
+	'stream_type': 'btcusdt@markPrice@1s',
+	'event_type': 'markPriceUpdate',
+	'data': [
+        {
+		'stream_type': 'btcusdt@markPrice@1s',
+		'event_type': 'markPriceUpdate',
+		'event_time': 1723823770000,
+		'symbol': 'BTCUSDT',
+		'mark_price': '58016.00000000',
+		'estimated_settle_price': '57967.13519746',
+		'funding_rate': '-0.00000582',
+		'next_funding_time': 1723824000000,
+		'index_price': '58033.78361702'
+        }
+    ],
+	'unicorn_fied': ['binance.com-futures', '0.14.2'
+    ]
+}
