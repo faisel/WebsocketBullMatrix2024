@@ -8,6 +8,7 @@ app = FastAPI()
 # Include API routers
 app.include_router(price_router, prefix="/api/v1")
 
+
 @app.on_event("startup")
 async def startup_event():
     from app.services.websocket_service import start_websocket
@@ -16,7 +17,7 @@ async def startup_event():
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Bullmatrix API"}
+    return {"message": "Welcome to Bullmatrix Websocket"}
 
 if __name__ == "__main__":
     import uvicorn

@@ -16,10 +16,12 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 
 
+Need to implement a Config button from the frontend to stop triggering to API and start Triggering to API
+
 
 # Git
 git add .
-git commit -m 'Log Removed'
+git commit -m 'Trigger implemented'
 git push origin main
 
 
