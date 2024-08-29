@@ -19,5 +19,8 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'First Commit'
+git commit -m 'Log Removed'
 git push origin main
+
+
+http://websocketbullmatrix2024.ap-northeast-1.elasticbeanstalk.com/docs#/
