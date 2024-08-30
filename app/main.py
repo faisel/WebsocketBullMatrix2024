@@ -5,6 +5,7 @@ import asyncio
 
 app = FastAPI()
 
+
 # Include API routers
 app.include_router(price_router, prefix="/api/v1")
 

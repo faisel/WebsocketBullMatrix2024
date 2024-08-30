@@ -4,6 +4,17 @@
 uvicorn app.main:app --reload
 
 
+# Websocket
+
+# Frontend
+http://bullparrot.com.s3-website-ap-northeast-1.amazonaws.com
+
+
+# API Link
+http://bullmatrixapi2024fastapi-env.ap-northeast-1.elasticbeanstalk.com/
+# API Docs
+http://bullmatrixapi2024fastapi-env.ap-northeast-1.elasticbeanstalk.com/docs#/
+
 
 
 # Install
@@ -16,12 +27,10 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 
 
-Need to implement a Config button from the frontend to stop triggering to API and start Triggering to API
-
 
 # Git
 git add .
-git commit -m 'Trigger implemented'
+git commit -m 'Config Switch implemented'
 git push origin main
 
 

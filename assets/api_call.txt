@@ -1,0 +1,23 @@
+
+
+
+
+
+/api/v1/update_websocket_switch/
+{
+    "secret_key": "rfsdfsdfsd",
+    "api_key": "ertertertegfgsdfrewrwere",
+    "switch_state": true
+}
+
+
+
+
+
+
+
+/api/v1/retrieve_websocket_live_json_price/
+{
+    "symbol": "BTCUSDT",
+    "api_key": "your_actual_api_key_here"
+}
