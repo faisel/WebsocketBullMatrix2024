@@ -5,6 +5,7 @@ uvicorn app.main:app --reload
 
 
 # Websocket
+http://websocketbullmatrix2024.ap-northeast-1.elasticbeanstalk.com/
 
 # Frontend
 http://bullparrot.com.s3-website-ap-northeast-1.amazonaws.com
@@ -30,7 +31,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'Index template implemented'
+git commit -m 'Done for testing'
 git push origin main
 
 
