@@ -30,7 +30,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'Config Switch implemented'
+git commit -m 'Config Switch again implemented'
 git push origin main
 
 
