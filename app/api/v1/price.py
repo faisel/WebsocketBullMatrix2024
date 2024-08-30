@@ -24,6 +24,38 @@ def save_config(config):
     with open("data/matrix_config.json", "w") as f:
         json.dump(config, f, indent=4)
 
+def load_price_data(symbol: str):
+    file_map = {
+        "BTCUSDT": "data/btcusdt_price.json",
+        "ETHUSDT": "data/ethusdt_price.json"
+    }
+    file_path = file_map.get(symbol.upper())
+    
+    if not file_path or not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Symbol not found or file does not exist")
+
+    with open(file_path, "r") as f:
+        return json.load(f)
+
+
+
+@price_router.post("/get_websocket_switch/")
+async def get_websocket_switch(api_key: str = Body(...)):
+    # Security check using BULLMATRIX_API_KEY from environment variables
+    if api_key != os.getenv("BULLMATRIX_API_KEY"):
+        raise HTTPException(status_code=403, detail="Forbidden: Invalid API Key")
+    
+    # Load the current configuration
+    current_config = load_config()
+
+    # Get the websocket switch state
+    websocket_switch = current_config['matrix_config'][0]['config_websocket_switch']
+
+    return {"config_websocket_switch": websocket_switch}
+
+
+
+
 # API endpoint to update the websocket switch state
 @price_router.post("/update_websocket_switch/")
 async def update_websocket_switch(config: WebSocketConfig):

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullmatrix Websocket Prices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: black; /* Set background color to black */
+            color: white; /* Set text color to white */
+        }
+        h1 {
+            color: lightblue; /* Set main title color to light blue */
+        }
+        .price-box {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            color: black; /* Set text color inside boxes to black */
+        }
+        #btc-price {
+            background-color: lightgreen; /* Set BTC box background to light green */
+        }
+        #eth-price {
+            background-color: #FFD580; /* Set ETH box background to light orange */
+        }
+        .info-box {
+            margin: 20px auto;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2em;
+        }
+        #info-box-off {
+            background-color: red; /* Red background if the switch is OFF */
+        }
+        #info-box-on {
+            background-color: green; /* Green background if the switch is ON */
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+        }
+        footer a {
+            color: lightblue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>BullMatrix Websocket Live</h1>
+
+
+
+    <div id="btc-price" class="price-box">
+        <h2>{{ btc_price["symbol"] }}</h2>
+        <h3>Price: <span id="btc-price-value">{{ btc_price["price"] }}</span></h3>
+        <p>App Time: <span id="btc-apptime-value">{{ btc_price["apptime"] }}</span></p>
+        <p>Server Time: <span id="btc-servertime-value">{{ btc_price["servertime"] }}</span></p>
+        <p>Price Diff: <span id="btc-price_diff-value">{{ btc_price["price_diff"] }}</span></p>
+    </div>
+    <div id="eth-price" class="price-box">
+        <h2>{{ eth_price["symbol"] }}</h2>
+        <h3>Price: <span id="eth-price-value">{{ eth_price["price"] }}</span></h3>
+        <p>App Time: <span id="eth-apptime-value">{{ eth_price["apptime"] }}</span></p>
+        <p>Server Time: <span id="eth-servertime-value">{{ eth_price["servertime"] }}</span></p>
+        <p>Price Diff: <span id="eth-price_diff-value">{{ eth_price["price_diff"] }}</span></p>
+    </div>
+
+
+        <!-- WebSocket Switch Info Box -->
+        <div id="{{ 'info-box-on' if websocket_switch else 'info-box-off' }}" class="info-box">
+            <strong>Websocket Switch</strong>
+            <p>{{ 'The switch is ON, triggers to BullMatrix API are active.' if websocket_switch else 'The switch is OFF, no triggers to BullMatrix API.' }}</p>
+        </div>
+
+    <footer>
+        <p>Developed by <a href="https://www.bkwik.ch" target="_blank">Faisel Kachappilly</a></p>
+    </footer>
+
+    <script>
+        async function fetchPrices() {
+            try {
+                const btcResponse = await fetch("/api/v1/retrieve_websocket_live_json_price/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ symbol: "BTCUSDT", api_key: "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32" })
+                });
+
+                const ethResponse = await fetch("/api/v1/retrieve_websocket_live_json_price/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ symbol: "ETHUSDT", api_key: "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32" })
+                });
+
+                if (!btcResponse.ok || !ethResponse.ok) {
+                    throw new Error('Failed to fetch data from the server');
+                }
+
+                const btcData = await btcResponse.json();
+                const ethData = await ethResponse.json();
+
+                // Update BTC values
+                if (btcData.price !== undefined) {
+                    document.getElementById("btc-price-value").textContent = parseFloat(btcData.price).toFixed(2);
+                }
+                if (btcData.apptime !== undefined) {
+                    document.getElementById("btc-apptime-value").textContent = btcData.apptime;
+                }
+                if (btcData.servertime !== undefined) {
+                    document.getElementById("btc-servertime-value").textContent = btcData.servertime;
+                }
+                if (btcData.price_diff !== undefined) {
+                    document.getElementById("btc-price_diff-value").textContent = parseFloat(btcData.price_diff).toFixed(2);
+                }
+
+                // Update ETH values
+                if (ethData.price !== undefined) {
+                    document.getElementById("eth-price-value").textContent = parseFloat(ethData.price).toFixed(2);
+                }
+                if (ethData.apptime !== undefined) {
+                    document.getElementById("eth-apptime-value").textContent = ethData.apptime;
+                }
+                if (ethData.servertime !== undefined) {
+                    document.getElementById("eth-servertime-value").textContent = ethData.servertime;
+                }
+                if (ethData.price_diff !== undefined) {
+                    document.getElementById("eth-price_diff-value").textContent = parseFloat(ethData.price_diff).toFixed(2);
+                }
+
+            } catch (error) {
+                console.error('Error fetching price data:', error);
+            }
+        }
+
+        setInterval(fetchPrices, 1000); // Update prices every 1 second
+    </script>
+</body>
+</html>
