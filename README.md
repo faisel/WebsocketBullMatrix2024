@@ -3,6 +3,8 @@
 # Run
 uvicorn app.main:app --reload
 
+# Port change
+uvicorn app.main:app --reload --port 8001
 
 # Websocket
 http://websocketbullmatrix2024.ap-northeast-1.elasticbeanstalk.com/
@@ -31,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'Done for testing'
+git commit -m 'websocket and compare price updated'
 git push origin main
 
 

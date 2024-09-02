@@ -5,66 +5,72 @@ from pytz import timezone
 from app.services.api_service import trigger_price_change
 from app.services.email_service import send_email_notification
 
-DATA_PATH = 'data'
-
-# Set the Zurich timezone
-zurich_tz = timezone('Europe/Zurich')
-
 async def compare_and_update_price(new_data):
+    try:
+        symbol = new_data['s']
+        new_price = new_data['p']
+        timestamp = new_data['E'] / 1000
+        json_file = os.path.join('data', f"{symbol.lower()}_price.json")
 
-    #print("new_data", new_data)
+        # Check if the file exists and load the old data
+        if os.path.exists(json_file):
+            with open(json_file, 'r') as f:
+                old_data = json.load(f)
+                old_price = old_data.get('price')
+                old_timestamp = old_data.get('timestamp')
+        else:
+            old_price = None
+            old_timestamp = None
 
-    symbol = new_data['symbol']
-    new_price = new_data['mark_price']
-    timestamp = new_data['event_time']
-    index_price = new_data['index_price']
-    estimated_settle_price = new_data['estimated_settle_price']
-    json_file = os.path.join(DATA_PATH, f"{symbol.lower()}_price.json")
+        price_diff = abs(float(new_price) - float(old_price)) if old_price else 0
 
-    # Get the current time in Zurich timezone
-    zurich_time = datetime.now(zurich_tz)
-    apptime = zurich_time.strftime("%b %d %H:%M:%S")  # e.g., "May 03 07:52:16"
-    servertime = datetime.now().strftime("%b %d %H:%M:%S")  # Server time in UTC
+        # Create the data structure to store and possibly send
+        trigger_data = {
+            "BULLMATRIX_API_KEY": '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32',
+            "apptime": datetime.now(timezone('Europe/Zurich')).strftime("%b %d %H:%M:%S"),
+            "servertime": datetime.utcnow().strftime("%b %d %H:%M:%S"),
+            "timestamp": timestamp,
+            "symbol": symbol,
+            "price": new_price,
+            "price_big_p": new_price,
+            "price_i": new_price,
+            "price_diff": str(price_diff),
+            "is_big_diff": False
+        }
 
-    if os.path.exists(json_file):
-        with open(json_file, 'r') as f:
-            old_data = json.load(f)
-            old_price = old_data['price']
-            old_timestamp = old_data['timestamp']
-            price_diff = abs(float(new_price) - float(old_price))  # Always positive
 
-            if price_diff != 0:
-                trigger_data = {
-                    "BULLMATRIX_API_KEY": os.getenv('BULLMATRIX_API_KEY'),
-                    "apptime": apptime,
-                    "servertime": servertime,
-                    "timestamp": timestamp,
-                    "symbol": symbol,
-                    "price": new_price,
-                    "price_big_p": estimated_settle_price,
-                    "price_i": index_price,
-                    "price_diff": str(price_diff),
-                    "is_big_diff": abs(price_diff) > 1  # Example threshold
-                }
+        # print("################## \n \n")
 
+        # print("symbol", symbol)
+        # print("old_price", old_price)
+        # print("price_diff", price_diff)
+        # print("new_price", new_price)
+
+
+        # print("################## \n \n")
+
+
+        if old_price is not None:
+            if symbol == "BTCUSDT" and price_diff >= 1.0:
+                trigger_data["is_big_diff"] = True
+                await trigger_price_change(trigger_data)
+                with open(json_file, 'w') as f:
+                    json.dump(trigger_data, f)
+            elif symbol == "ETHUSDT" and price_diff >= 0.5:
+                trigger_data["is_big_diff"] = True
                 await trigger_price_change(trigger_data)
                 with open(json_file, 'w') as f:
                     json.dump(trigger_data, f)
 
-            if datetime.now() - timedelta(seconds=30) > datetime.fromtimestamp(old_timestamp):
+            # Check if price hasn't changed for 30 seconds
+            if datetime.utcnow() - timedelta(seconds=30) > datetime.utcfromtimestamp(old_timestamp):
                 send_email_notification("Price Unchanged Alert", f"Price for {symbol} has not changed for 30 seconds.")
 
-    else:
+        # Save the updated data to the JSON file
         with open(json_file, 'w') as f:
-            json.dump({
-                    "BULLMATRIX_API_KEY": os.getenv('BULLMATRIX_API_KEY'),
-                    "apptime": apptime,
-                    "servertime": servertime,
-                    "timestamp": timestamp,
-                    "symbol": symbol,
-                    "price": new_price,
-                    "price_big_p": estimated_settle_price,
-                    "price_i": index_price,
-                    "price_diff": str(price_diff),
-                    "is_big_diff": abs(price_diff) > 1  # Example threshold
-                }, f)
+            json.dump(trigger_data, f)
+
+    except Exception as e:
+        print(f"Error in compare_and_update_price: {e}")
+
+    return True
