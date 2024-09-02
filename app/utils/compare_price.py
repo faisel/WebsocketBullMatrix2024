@@ -85,8 +85,8 @@ async def compare_and_update_price(new_data):
                         print(f"Error writing to JSON file: {e}")
 
                 # Check if price hasn't changed for 30 seconds
-                if old_timestamp and datetime.utcnow() - timedelta(seconds=30) > datetime.utcfromtimestamp(old_timestamp):
-                    send_email_notification("Price Unchanged Alert", f"Price for {symbol} has not changed for 30 seconds.")
+                # if old_timestamp and datetime.utcnow() - timedelta(seconds=30) > datetime.utcfromtimestamp(old_timestamp):
+                #     send_email_notification("Price Unchanged Alert", f"Price for {symbol} has not changed for 30 seconds.")
 
 
         except KeyError as e:
