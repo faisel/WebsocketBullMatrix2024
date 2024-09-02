@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'send noti deactivated'
+git commit -m 'compare updated'
 git push origin main
 
 
