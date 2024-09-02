@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'compare updated'
+git commit -m 'ETH price diff updated'
 git push origin main
 
 

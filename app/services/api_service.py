@@ -45,4 +45,5 @@ async def trigger_price_change(alert):
 
     except httpx.RequestError as e:
         # Handle any errors that occurred during the request
-        print(f"An error occurred while requesting {url}: {e}")
+        #print(f"An error occurred while requesting {url}: {e}")
+        pass

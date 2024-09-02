@@ -66,12 +66,26 @@ async def compare_and_update_price(new_data):
                 "is_big_diff": False
             }
 
+            print("########################### \n \n")
+
+            print("symbol", symbol)
+            print("old_price", old_price)
+            print("new_price", new_price)
+            print("price_diff", price_diff)
+
+            print("########################### \n \n")
+
+
+
+            
+
+
             # Check for price differences
             if old_price is not None:
                 if symbol == "BTCUSDT" and price_diff >= 1.0:
                     trigger_data["is_big_diff"] = True
                     await trigger_price_change(trigger_data)
-                elif symbol == "ETHUSDT" and price_diff >= 0.5:
+                elif symbol == "ETHUSDT" and price_diff >= 0.1:
                     trigger_data["is_big_diff"] = True
                     await trigger_price_change(trigger_data)
 
