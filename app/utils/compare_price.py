@@ -66,14 +66,14 @@ async def compare_and_update_price(new_data):
                 "is_big_diff": False
             }
 
-            print("########################### \n \n")
+            # print("########################### \n \n")
 
-            print("symbol", symbol)
-            print("old_price", old_price)
-            print("new_price", new_price)
-            print("price_diff", price_diff)
+            # print("symbol", symbol)
+            # print("old_price", old_price)
+            # print("new_price", new_price)
+            # print("price_diff", price_diff)
 
-            print("########################### \n \n")
+            # print("########################### \n \n")
 
 
 
@@ -82,19 +82,26 @@ async def compare_and_update_price(new_data):
 
             # Check for price differences
             if old_price is not None:
-                if symbol == "BTCUSDT" and price_diff >= 1.0:
+                if symbol == "BTCUSDT" and price_diff >= 5:
                     trigger_data["is_big_diff"] = True
                     await trigger_price_change(trigger_data)
-                elif symbol == "ETHUSDT" and price_diff >= 0.1:
+                    # Save the updated data to the JSON file
+                    try:
+                        with open(json_file, 'w') as f:
+                            json.dump(trigger_data, f)
+                    except OSError as e:
+                        logger.error(f"Error writing to JSON file: {e}")
+                elif symbol == "ETHUSDT" and price_diff >= 1:
                     trigger_data["is_big_diff"] = True
                     await trigger_price_change(trigger_data)
+                    # Save the updated data to the JSON file
+                    try:
+                        with open(json_file, 'w') as f:
+                            json.dump(trigger_data, f)
+                    except OSError as e:
+                        logger.error(f"Error writing to JSON file: {e}")
 
-            # Save the updated data to the JSON file
-            try:
-                with open(json_file, 'w') as f:
-                    json.dump(trigger_data, f)
-            except OSError as e:
-                logger.error(f"Error writing to JSON file: {e}")
+
 
             # Uncomment and complete if needed in the future
             # Check if price hasn't changed for 30 seconds

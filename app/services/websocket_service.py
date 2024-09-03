@@ -12,7 +12,7 @@ class WebSocketService:
 
         # Define the markets and channels
         self.markets = ['btcusdt', 'ethusdt']
-        self.channels = ['trade']
+        self.channels = ['aggTrade']
 
         self.ubwa = BinanceWebSocketApiManager(exchange='binance.com-futures',
                                                auto_data_cleanup_stopped_streams=True,

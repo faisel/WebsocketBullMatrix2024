@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'Just updated 1'
+git commit -m 'channel updated aggTrade'
 git push origin main
 
 
