@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'processing_of_new_data updated'
+git commit -m 'page /price updated'
 git push origin main
 
 

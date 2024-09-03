@@ -21,6 +21,10 @@ async def startup_event():
     asyncio.create_task(start_websocket())
 
 @app.get("/")
+def read_root():
+    return {"message": "Welcome to Bullmatrix WebSocket"}
+
+@app.get("/price")
 async def read_root(request: Request):
     btc_price = load_price_data("BTCUSDT")
     eth_price = load_price_data("ETHUSDT")
