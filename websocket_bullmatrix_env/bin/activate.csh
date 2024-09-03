@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/fka/Sites/Faisel/Bullmatrix_2024/websocket.bullmatrix/websocket_bullmatrix_env"
+setenv VIRTUAL_ENV "/Users/fka/Sites/Faisel/Bullmatrix_2024/WebsocketBullMatrix2024/websocket_bullmatrix_env"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

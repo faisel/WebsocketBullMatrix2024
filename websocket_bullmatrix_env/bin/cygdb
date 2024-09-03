@@ -1,4 +1,4 @@
-#!/Users/fka/Sites/Faisel/Bullmatrix_2024/websocket.bullmatrix/websocket_bullmatrix_env/bin/python3
+#!/Users/fka/Sites/Faisel/Bullmatrix_2024/WebsocketBullMatrix2024/websocket_bullmatrix_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/fka/Sites/Faisel/Bullmatrix_2024/websocket.bullmatrix/websocket_bullmatrix_env"
+set -gx VIRTUAL_ENV "/Users/fka/Sites/Faisel/Bullmatrix_2024/WebsocketBullMatrix2024/websocket_bullmatrix_env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
