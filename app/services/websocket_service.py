@@ -9,6 +9,9 @@ class WebSocketService:
     def __init__(self, print_new_data=False):
         self.example_database = []
         self.print_new_data = print_new_data
+        self.last_prices = {}  # To store the last processed prices
+           
+
 
         # Define the markets and channels
         self.markets = ['btcusdt', 'ethusdt']
@@ -33,27 +36,38 @@ class WebSocketService:
             # print(f"Status:\r\n\tStored {len(self.example_database)} data records in `self.example_database`\r\n"
             #       f"{status_text}")
 
-
     async def processing_of_new_data(self, stream_id=None):
+        MIN_PRICE_DIFF_BTC = 5
+        MIN_PRICE_DIFF_ETH = 1
         print(f"Processing data from stream {self.ubwa.get_stream_label(stream_id=stream_id)} ...")
         while not self.ubwa.is_stop_request(stream_id=stream_id):
             data = await self.ubwa.get_stream_data_from_asyncio_queue(stream_id)
-            # self.example_database.append(data)
-            # if self.print_new_data:
-            #     print(f"Received data by stream `{self.ubwa.get_stream_label(stream_id=stream_id)}`: {data}")
             
             # Ensure the 'data' key exists before trying to access it
             if 'data' in data:
-                try:
-                    await compare_and_update_price(data['data'])  # Pass the 'data' part of the message
-                except Exception as e:
-                    print(f"Error processing data: {e}")
+                symbol = data['data'].get('s')
+                current_price = float(data['data'].get('p', 0))
+
+                if symbol and current_price:
+                    min_price_diff = MIN_PRICE_DIFF_BTC if symbol == "BTCUSDT" else MIN_PRICE_DIFF_ETH
+                    last_price = self.last_prices.get(symbol)
+
+                    # Only trigger `compare_and_update_price` if the price difference is significant
+                    if last_price is None or abs(current_price - last_price) >= min_price_diff:
+                        try:
+                            await compare_and_update_price(data['data'])  # Pass the 'data' part of the message
+                            # Update the last price after processing
+                            self.last_prices[symbol] = current_price
+                        except Exception as e:
+                            print(f"Error processing data: {e}")
+                    # else:
+                    #     print(f"Price change for {symbol} is too small, skipping processing.")
+                else:
+                    print(f"Symbol or price missing in data: {data['data']}")
             else:
                 print(f"Unexpected data format received: {data}")
-            
+
             self.ubwa.asyncio_queue_task_done(stream_id)
-
-
 
 
 
