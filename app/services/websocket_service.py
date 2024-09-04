@@ -35,8 +35,8 @@ class WebSocketService:
                            f"(last_stream_signal={stream_info['last_stream_signal']})\r\n")
 
     async def processing_of_new_data(self, stream_id=None):
-        MIN_PRICE_DIFF_BTC = 5
-        MIN_PRICE_DIFF_ETH = 1
+        MIN_PRICE_DIFF_BTC = 5 #5
+        MIN_PRICE_DIFF_ETH = 1 #1
 
         print(f"Processing data from stream {self.ubwa.get_stream_label(stream_id=stream_id)} ...")
         while not self.ubwa.is_stop_request(stream_id=stream_id):

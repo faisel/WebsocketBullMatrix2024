@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'price update delay increased'
+git commit -m 'print updated'
 git push origin main
 
 
