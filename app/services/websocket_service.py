@@ -10,8 +10,8 @@ class WebSocketService:
         self.example_database = []
         self.print_new_data = print_new_data
         self.last_prices = {}  # To store the last processed prices
-           
-
+        self.processing_flag = False  # Flag to indicate if processing is ongoing
+        self.latest_data = None  # Store the latest data received
 
         # Define the markets and channels
         self.markets = ['btcusdt', 'ethusdt']
@@ -33,16 +33,28 @@ class WebSocketService:
             stream_info = self.ubwa.get_stream_info(stream_id=self.ubwa.get_stream_id_by_label('trade_stream'))
             status_text = (f"Stream 'trade_stream' is {stream_info['status']} "
                            f"(last_stream_signal={stream_info['last_stream_signal']})\r\n")
-            # print(f"Status:\r\n\tStored {len(self.example_database)} data records in `self.example_database`\r\n"
-            #       f"{status_text}")
 
     async def processing_of_new_data(self, stream_id=None):
         MIN_PRICE_DIFF_BTC = 5
         MIN_PRICE_DIFF_ETH = 1
+
         print(f"Processing data from stream {self.ubwa.get_stream_label(stream_id=stream_id)} ...")
         while not self.ubwa.is_stop_request(stream_id=stream_id):
             data = await self.ubwa.get_stream_data_from_asyncio_queue(stream_id)
             
+            # Always update latest_data with the most recent data received
+            self.latest_data = data
+
+            # Check if already processing
+            if self.processing_flag:
+                symbol = data['data'].get('s')
+                current_price = data['data'].get('p')
+                print(f"Skipped processing for {symbol} with price {current_price}. Previous task still ongoing.")
+                continue
+
+            # Set the processing flag
+            self.processing_flag = True
+
             # Ensure the 'data' key exists before trying to access it
             if 'data' in data:
                 symbol = data['data'].get('s')
@@ -55,7 +67,7 @@ class WebSocketService:
                     # Only trigger `compare_and_update_price` if the price difference is significant
                     if last_price is None or abs(current_price - last_price) >= min_price_diff:
                         try:
-                            await compare_and_update_price(data['data'])  # Pass the 'data' part of the message
+                            await compare_and_update_price(self.latest_data['data'])  # Use the latest data
                             # Update the last price after processing
                             self.last_prices[symbol] = current_price
                         except Exception as e:
@@ -67,11 +79,9 @@ class WebSocketService:
             else:
                 print(f"Unexpected data format received: {data}")
 
+            # Clear the processing flag when done
+            self.processing_flag = False
             self.ubwa.asyncio_queue_task_done(stream_id)
-
-
-
-
 
     def stop_service(self):
         self.ubwa.stop_manager()

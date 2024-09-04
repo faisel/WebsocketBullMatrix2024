@@ -3,7 +3,6 @@ import httpx
 import json
 from app.core.config import settings
 
-
 async def trigger_price_change(alert):
 
     #print("alert", alert)
@@ -14,9 +13,9 @@ async def trigger_price_change(alert):
     websocket_switch = current_config['matrix_config'][0]['config_websocket_switch']
 
     # Check if the websocket switch is OFF
-    # if not websocket_switch:
-    #     print("config_websocket_switch is OFF, not triggering the price change alert.", alert)
-    #     return  # Simply exit the function without doing anything
+    if not websocket_switch:
+        #print("config_websocket_switch is OFF, not triggering the price change alert.", alert)
+        return  # Simply exit the function without doing anything
 
     # If the switch is ON, proceed with the API request
     url = settings.PRICE_CHANGE_API_URL
@@ -24,7 +23,8 @@ async def trigger_price_change(alert):
 
     try:
         async with httpx.AsyncClient() as client:
-            response = await client.post(url, json=alert, headers=headers)
+            # Send the API request
+            await client.post(url, json=alert, headers=headers)
 
         # Check if the request was successful
         # if response.status_code == 200:
@@ -35,4 +35,9 @@ async def trigger_price_change(alert):
     except httpx.RequestError as e:
         # Handle any errors that occurred during the request
         #print(f"An error occurred while requesting {url}: {e}")
+        pass
+
+    except Exception as e:
+        # Catch all other exceptions, skip them, and move on
+        #print(f"An unexpected error occurred: {e}")
         pass

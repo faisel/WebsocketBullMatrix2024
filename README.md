@@ -33,8 +33,24 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'page /price updated'
+git commit -m 'price update delay increased'
 git push origin main
 
 
 http://websocketbullmatrix2024.ap-northeast-1.elasticbeanstalk.com/docs#/
+
+
+
+
+# AWS Dashboard EC2 Instance connect
+[root@ip-172-31-39-131 ~]# cd /var/app/current
+[root@ip-172-31-39-131 current]# cd data
+[root@ip-172-31-39-131 data]# ls -la
+
+[root@ip-172-31-39-131 data]# cat btcusdt_price.json
+# q ----- to quit
+
+[root@ip-172-31-39-131 data]# cat ethusdt_price.json
+
+
+
