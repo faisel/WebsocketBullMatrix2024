@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'startup Activated'
+git commit -m 'Auto start deactivated again'
 git push origin main
 
 

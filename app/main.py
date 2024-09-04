@@ -18,10 +18,10 @@ app.include_router(price_router, prefix="/api/v1")
 
 @app.on_event("startup")
 async def startup_event():
-    from app.services.websocket_service import start_websocket
+    #from app.services.websocket_service import start_websocket
     # Run the WebSocket service concurrently with FastAPI
-    #print("Just Started")
-    asyncio.create_task(start_websocket())
+    print("Just Started")
+    #asyncio.create_task(start_websocket())
     
 
 @app.get("/")
