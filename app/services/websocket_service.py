@@ -15,7 +15,8 @@ class WebSocketService:
 
         # Define the markets and channels
         self.markets = ['btcusdt', 'ethusdt']
-        self.channels = ['aggTrade']
+        #self.channels = ['aggTrade'] # aggTrade makes Huge CPU usage, no need of it
+        self.channels = ['markPrice']
 
         self.ubwa = BinanceWebSocketApiManager(exchange='binance.com-futures',
                                                auto_data_cleanup_stopped_streams=True,
@@ -57,6 +58,8 @@ class WebSocketService:
 
             # Ensure the 'data' key exists before trying to access it
             if 'data' in data:
+
+                print("data", data)
                 symbol = data['data'].get('s')
                 current_price = float(data['data'].get('p', 0))
 

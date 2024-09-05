@@ -5,7 +5,7 @@ from app.core.config import settings
 
 async def trigger_price_change(alert):
 
-    #print("alert", alert)
+    print("alert", alert)
     # Load the current configuration to check the websocket switch
     with open("data/matrix_config.json", "r") as f:
         current_config = json.load(f)

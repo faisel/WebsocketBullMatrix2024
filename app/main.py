@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Request, HTTPException
 from app.api.v1.price import price_router
 from app.core.config import settings
+from fastapi.staticfiles import StaticFiles
 import asyncio
 from fastapi.templating import Jinja2Templates
 from app.api.v1.price import load_price_data, load_config
@@ -42,27 +43,9 @@ async def read_root(request: Request):
     })
 
 
-@app.get("/price_btcusdt")
-async def get_matrix_price_btcusdt():
-    return serve_json_file("btcusdt_price.json")
+# Serve static files (e.g., JSON files)
+app.mount("/data", StaticFiles(directory="data"), name="data")
 
-@app.get("/price_ethusdt")
-async def get_matrix_price_ethusdt():
-    return serve_json_file("ethusdt_price.json")
-
-@app.get("/config")
-async def get_matrix_price_ethusdt():
-    return serve_json_file("matrix_config.json")
-
-
-# Helper function to serve JSON files
-def serve_json_file(filename: str):
-    file_path = Path(f"data/{filename}")
-    if file_path.exists():
-        with open(file_path, "r") as file:
-            return json.load(file)
-    else:
-        raise HTTPException(status_code=404, detail=f"{filename} file not found")
 
 
 if __name__ == "__main__":
