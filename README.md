@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'print updated'
+git commit -m 'just updated'
 git push origin main
 
 
