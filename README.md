@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'just again and again updated'
+git commit -m '.platform/nginx/conf.d/custom.conf updated'
 git push origin main
 
 
