@@ -29,11 +29,11 @@ python3 -m venv websocket_bullmatrix_env  # Replace 'my_fastapi_env' with your d
 source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment (macOS/Linux)
 
 
-
+git reset --hard
 
 # Git
 git add .
-git commit -m 'channel updated to markPrice'
+git commit -m 'readme updated'
 git push origin main
 
 
