@@ -33,7 +33,7 @@ source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment
 
 # Git
 git add .
-git commit -m 'channel updated to markPrice'
+git commit -m 'log updated'
 git push origin main
 
 

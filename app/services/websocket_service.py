@@ -59,7 +59,7 @@ class WebSocketService:
             # Ensure the 'data' key exists before trying to access it
             if 'data' in data:
 
-                print("data", data)
+                #print("data", data)
                 symbol = data['data'].get('s')
                 current_price = float(data['data'].get('p', 0))
 

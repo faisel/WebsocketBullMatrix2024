@@ -2,11 +2,13 @@ from fastapi import FastAPI, Request, HTTPException
 from app.api.v1.price import price_router
 from app.core.config import settings
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import StreamingResponse
 import asyncio
 from fastapi.templating import Jinja2Templates
 from app.api.v1.price import load_price_data, load_config
 import json
 from pathlib import Path
+import os
 
 app = FastAPI()
 
@@ -42,6 +44,22 @@ async def read_root(request: Request):
         "websocket_switch": websocket_switch
     })
 
+LOG_FILE_PATH = os.path.join(os.path.dirname(__file__), "log", "app.log")
+@app.get("/logs")
+def stream_logs():
+    """
+    Stream logs from the app.log file.
+    """
+
+    def log_streamer():
+        with open(LOG_FILE_PATH, "r") as log_file:
+            while True:
+                line = log_file.readline()
+                if not line:
+                    break
+                yield line
+
+    return StreamingResponse(log_streamer(), media_type="text/plain")
 
 # Serve static files (e.g., JSON files)
 app.mount("/data", StaticFiles(directory="data"), name="data")
