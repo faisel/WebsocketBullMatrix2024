@@ -29,11 +29,15 @@ python3 -m venv websocket_bullmatrix_env  # Replace 'my_fastapi_env' with your d
 source websocket_bullmatrix_env/bin/activate  # Activate the virtual environment (macOS/Linux)
 
 
-
+git reset --hard
 
 # Git
 git add .
+<<<<<<< HEAD
 git commit -m 'log updated'
+=======
+git commit -m 'readme updated'
+>>>>>>> d6381d401e321760da62a15bc91c00bea9a0b37d
 git push origin main
 
 
