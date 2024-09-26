@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 26 15:37:24", "servertime": "Sep 26 13:37:24", "timestamp": 1727357844.0, "symbol": "ETHUSDT", "price": "2619.88749242", "price_big_p": "2619.88749242", "price_i": "2619.88749242", "price_diff": "1.112507580000056", "is_big_diff": true}
-=======
-{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 15 23:26:33", "servertime": "Sep 15 21:26:33", "timestamp": 1726435593.0, "symbol": "ETHUSDT", "price": "2339.73000000", "price_big_p": "2339.73000000", "price_i": "2339.73000000", "price_diff": "1.2591515200001595", "is_big_diff": true}
->>>>>>> d6381d401e321760da62a15bc91c00bea9a0b37d
+{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 26 16:20:03", "servertime": "Sep 26 14:20:03", "timestamp": 1727360403.0, "symbol": "ETHUSDT", "price": "2645.56065909", "price_big_p": "2645.56065909", "price_i": "2645.56065909", "price_diff": "1.0306666700003007", "is_big_diff": true}

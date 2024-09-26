@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 26 15:37:54", "servertime": "Sep 26 13:37:54", "timestamp": 1727357874.0, "symbol": "BTCUSDT", "price": "64313.10000000", "price_big_p": "64313.10000000", "price_i": "64313.10000000", "price_diff": "12.468489359998784", "is_big_diff": true}
-=======
-{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 15 23:25:30", "servertime": "Sep 15 21:25:30", "timestamp": 1726435530.0, "symbol": "BTCUSDT", "price": 59512.8, "price_big_p": "59514.52215603", "price_i": "59514.52215603", "price_diff": "3221.9671631199963", "is_big_diff": true}
->>>>>>> d6381d401e321760da62a15bc91c00bea9a0b37d
+{"BULLMATRIX_API_KEY": "0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32", "apptime": "Sep 26 16:20:18", "servertime": "Sep 26 14:20:18", "timestamp": 1727360418.0, "symbol": "BTCUSDT", "price": "64950.00000000", "price_big_p": "64950.00000000", "price_i": "64950.00000000", "price_diff": "15.078957450001326", "is_big_diff": true}
