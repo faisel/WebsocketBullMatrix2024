@@ -3,6 +3,7 @@ import json
 import asyncio
 from app.core.config import settings
 from app.utils.logging_config import get_logger
+import time
 
 logger = get_logger(__name__)
 
@@ -13,6 +14,9 @@ latest_alerts = {"BTCUSDT": None, "ETHUSDT": None}
 
 async def trigger_price_change(alert):
     symbol = alert['symbol']
+
+    alert['price'] = str(round(float(alert['price']), 2))
+    alert_trigger = f"{int(time.time())}_{alert['symbol']}_{alert['price']}"
 
     # Load the current configuration to check the websocket switch
     with open("data/matrix_config.json", "r") as f:
@@ -56,6 +60,7 @@ async def trigger_price_change(alert):
                         # Log only if 'success' key exists in the response
                         if result.get("success") is not None:
                             logger.info("\n \n \n \n")
+                            logger.info(f"ALERT Trigger {alert_trigger}")
                             logger.info(f"STARTED API response for {symbol}")
                             logger.info(f"API success: {result.get('success')}")
                             logger.info(f"API message: {result.get('message', 'No message provided')}")

@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'price json updated'
+git commit -m 'added alert updated'
 git push origin main
 
 
