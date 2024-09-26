@@ -46,40 +46,51 @@ async def trigger_price_change(alert):
                 api_task = client.post(url, json=alert, headers=headers)
                 response = await asyncio.wait_for(api_task, timeout=timeout)
 
-                # Check if the response is successful
+                # Process response if successful
                 if response.status_code == 200:
-                    result = response.json()
-                    print(f"Received API response for {symbol}: {result}")
-                    if result.get("success"):
-                        logger.info("\n \n \n \n")
-                        logger.info(f"STARTED API response for {symbol}")
-                        logger.info(f"API success: {result.get('success')}")
-                        logger.info(f"API message: {result.get('message')}")
-                        logger.info(f"API position_id: {result.get('position_id')}")
-                        logger.info(f"API price: {result.get('price')}")
-                        logger.info(f"API type: {result.get('type')}")
-                        logger.info(f"API isHedgeOpen: {result.get('isHedgeOpen')}")
-                        logger.info(f"API trigger: {result.get('trigger')}")
-                        logger.info(f"API trigger_success: {result.get('trigger_success')}")
-                        logger.info(f"API trigger_message: {result.get('trigger_message')}")
-                        logger.info(f"END API response for {symbol}")
+                    try:
+                        result = response.json()
+                        # Log the response only if the format is correct and contains required fields
+                        logger.info(f"Received API response for {symbol}: {result}")
 
+                        # Log only if 'success' key exists in the response
+                        if result.get("success") is not None:
+                            logger.info("\n \n \n \n")
+                            logger.info(f"STARTED API response for {symbol}")
+                            logger.info(f"API success: {result.get('success')}")
+                            logger.info(f"API message: {result.get('message', 'No message provided')}")
+                            logger.info(f"API position_id: {result.get('position_id', 'N/A')}")
+                            logger.info(f"API price: {result.get('price', 'N/A')}")
+                            logger.info(f"API type: {result.get('type', 'N/A')}")
+                            logger.info(f"API isHedgeOpen: {result.get('isHedgeOpen', 'N/A')}")
+                            logger.info(f"API trigger: {result.get('trigger', 'N/A')}")
+                            logger.info(f"API trigger_success: {result.get('trigger_success', 'N/A')}")
+                            logger.info(f"API trigger_message: {result.get('trigger_message', 'No trigger message')}")
+                            logger.info(f"END API response for {symbol}")
+                        else:
+                            logger.warning(f"API response for {symbol} is missing 'success' key or is malformed.")
+                    except Exception as e:
+                        # Log the error if the JSON response can't be parsed or if keys are missing
+                        logger.error(f"Failed to process API response for {symbol}. Error: {e}")
                 else:
                     logger.error(f"Failed to trigger API price change for {symbol}. Status code: {response.status_code}")
+        
         except asyncio.TimeoutError:
             logger.warning(f"Timeout occurred while waiting for API response for {symbol}, processing the latest alert instead.")
 
         except httpx.RequestError as e:
             logger.error(f"An error occurred while requesting {url} for {symbol}: {e}")
+        
         except Exception as e:
             logger.error(f"An unexpected error occurred: {e}")
+        
         finally:
             # After processing, check if a new alert came in during the wait time
             latest_alert = latest_alerts[symbol]
             if latest_alert != alert:
                 logger.info(f"Skipping intermediate alert for {symbol} while processing the previous one.")
             else:
-                print(f"Finished processing the alert for {symbol}.")
+                logger.info(f"Finished processing the alert for {symbol}.")
 
             # Mark the processing as finished
             symbol_processing[symbol] = False

@@ -33,11 +33,7 @@ git reset --hard
 
 # Git
 git add .
-<<<<<<< HEAD
 git commit -m 'log updated'
-=======
-git commit -m 'readme updated'
->>>>>>> d6381d401e321760da62a15bc91c00bea9a0b37d
 git push origin main
 
 
