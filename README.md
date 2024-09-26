@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'added alert updated'
+git commit -m 'MAX_PRICE_DIFF updated'
 git push origin main
 
 
