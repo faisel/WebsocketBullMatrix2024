@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'max price updated'
+git commit -m 'Procfile updated'
 git push origin main
 
 
