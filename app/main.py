@@ -61,6 +61,19 @@ def stream_logs():
 
     return StreamingResponse(log_streamer(), media_type="text/plain")
 
+
+@app.get("/logs-empty")
+def logs_empty():
+    try:
+        # Open the log file in write mode to clear its contents
+        with open(LOG_FILE_PATH, 'w') as file:
+            file.write("")  # Writing an empty string will clear the file
+
+        return {"message": "Log file emptied successfully."}
+    except Exception as e:
+        return {"error": f"Failed to empty the log file: {str(e)}"}
+
+
 # Serve static files (e.g., JSON files)
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
