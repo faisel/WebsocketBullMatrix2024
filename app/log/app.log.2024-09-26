@@ -1,0 +1,1346 @@
+2024-09-26 22:46:56 - app.services.api_service - DEBUG - Logger initialized successfully
+2024-09-26 22:47:09 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64710.8', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64710.8, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:47:09 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:47:09 - app.services.api_service - INFO - ALERT Trigger 1727383627_BTCUSDT_64710.8
+2024-09-26 22:47:09 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:47:09 - app.services.api_service - INFO - API success: True
+2024-09-26 22:47:09 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64710.8
+2024-09-26 22:47:09 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:47:09 - app.services.api_service - INFO - API price: 64710.8
+2024-09-26 22:47:09 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:47:09 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:47:09 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:47:09 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:47:09 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:47:09 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:47:09 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:47:11 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2633.93', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2633.93, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:47:11 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:47:11 - app.services.api_service - INFO - ALERT Trigger 1727383631_ETHUSDT_2633.93
+2024-09-26 22:47:11 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:47:11 - app.services.api_service - INFO - API success: True
+2024-09-26 22:47:11 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2633.93
+2024-09-26 22:47:11 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:47:11 - app.services.api_service - INFO - API price: 2633.93
+2024-09-26 22:47:11 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:47:11 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:47:11 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:47:11 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:47:11 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:47:11 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:47:11 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:48:13 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2632.84', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2632.84, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:48:13 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:48:13 - app.services.api_service - INFO - ALERT Trigger 1727383692_ETHUSDT_2632.84
+2024-09-26 22:48:13 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:48:13 - app.services.api_service - INFO - API success: True
+2024-09-26 22:48:13 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2632.84
+2024-09-26 22:48:13 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:48:13 - app.services.api_service - INFO - API price: 2632.84
+2024-09-26 22:48:13 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:48:13 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:48:13 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:48:13 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:48:13 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:48:13 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:48:13 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:48:31 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64704.5', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64704.5, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:48:31 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:48:31 - app.services.api_service - INFO - ALERT Trigger 1727383710_BTCUSDT_64704.5
+2024-09-26 22:48:31 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:48:31 - app.services.api_service - INFO - API success: True
+2024-09-26 22:48:31 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64704.5
+2024-09-26 22:48:31 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:48:31 - app.services.api_service - INFO - API price: 64704.5
+2024-09-26 22:48:31 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:48:31 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:48:31 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:48:31 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:48:31 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:48:31 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:48:31 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:48:32 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2631.55', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2631.55, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:48:32 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:48:32 - app.services.api_service - INFO - ALERT Trigger 1727383711_ETHUSDT_2631.55
+2024-09-26 22:48:32 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:48:32 - app.services.api_service - INFO - API success: True
+2024-09-26 22:48:32 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2631.55
+2024-09-26 22:48:32 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:48:32 - app.services.api_service - INFO - API price: 2631.55
+2024-09-26 22:48:32 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:48:32 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:48:32 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:48:32 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:48:32 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:48:32 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:48:32 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:49:22 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2630.39', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2630.39, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:49:22 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:49:22 - app.services.api_service - INFO - ALERT Trigger 1727383761_ETHUSDT_2630.39
+2024-09-26 22:49:22 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:49:22 - app.services.api_service - INFO - API success: True
+2024-09-26 22:49:22 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2630.39
+2024-09-26 22:49:22 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:49:22 - app.services.api_service - INFO - API price: 2630.39
+2024-09-26 22:49:22 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:49:22 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:49:22 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:49:22 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:49:22 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:49:22 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:49:22 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:49:25 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64680.0', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64680.0, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:49:25 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:49:25 - app.services.api_service - INFO - ALERT Trigger 1727383764_BTCUSDT_64680.0
+2024-09-26 22:49:25 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:49:25 - app.services.api_service - INFO - API success: True
+2024-09-26 22:49:25 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64680.0
+2024-09-26 22:49:25 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:49:25 - app.services.api_service - INFO - API price: 64680.0
+2024-09-26 22:49:25 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:49:25 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:49:25 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:49:25 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:49:25 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:49:25 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:49:25 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:49:40 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64653.53', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64653.53, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:49:40 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:49:40 - app.services.api_service - INFO - ALERT Trigger 1727383779_BTCUSDT_64653.53
+2024-09-26 22:49:40 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:49:40 - app.services.api_service - INFO - API success: True
+2024-09-26 22:49:40 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64653.53
+2024-09-26 22:49:40 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:49:40 - app.services.api_service - INFO - API price: 64653.53
+2024-09-26 22:49:40 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:49:40 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:49:40 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:49:40 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:49:40 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:49:40 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:49:40 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:49:43 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2628.62', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2628.62, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:49:43 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:49:43 - app.services.api_service - INFO - ALERT Trigger 1727383782_ETHUSDT_2628.62
+2024-09-26 22:49:43 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:49:43 - app.services.api_service - INFO - API success: True
+2024-09-26 22:49:43 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2628.62
+2024-09-26 22:49:43 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:49:43 - app.services.api_service - INFO - API price: 2628.62
+2024-09-26 22:49:43 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:49:43 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:49:43 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:49:43 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:49:43 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:49:43 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:49:43 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:50:04 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64677.7', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64677.7, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:50:04 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:50:04 - app.services.api_service - INFO - ALERT Trigger 1727383803_BTCUSDT_64677.7
+2024-09-26 22:50:04 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:50:04 - app.services.api_service - INFO - API success: True
+2024-09-26 22:50:04 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64677.7
+2024-09-26 22:50:04 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:50:04 - app.services.api_service - INFO - API price: 64677.7
+2024-09-26 22:50:04 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:50:04 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:50:04 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:50:04 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:50:04 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:50:04 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:50:04 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:50:05 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2629.66', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2629.66, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:50:05 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:50:05 - app.services.api_service - INFO - ALERT Trigger 1727383804_ETHUSDT_2629.66
+2024-09-26 22:50:05 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:50:05 - app.services.api_service - INFO - API success: True
+2024-09-26 22:50:05 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2629.66
+2024-09-26 22:50:05 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:50:05 - app.services.api_service - INFO - API price: 2629.66
+2024-09-26 22:50:05 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:50:05 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:50:05 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:50:05 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:50:05 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:50:05 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:50:05 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:50:37 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64657.33', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64657.33, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:50:37 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:50:37 - app.services.api_service - INFO - ALERT Trigger 1727383836_BTCUSDT_64657.33
+2024-09-26 22:50:37 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:50:37 - app.services.api_service - INFO - API success: True
+2024-09-26 22:50:37 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64657.33
+2024-09-26 22:50:37 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:50:37 - app.services.api_service - INFO - API price: 64657.33
+2024-09-26 22:50:37 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:50:37 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:50:37 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:50:37 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:50:37 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:50:37 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:50:37 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:50:40 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2628.42', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2628.42, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:50:40 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:50:40 - app.services.api_service - INFO - ALERT Trigger 1727383839_ETHUSDT_2628.42
+2024-09-26 22:50:40 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:50:40 - app.services.api_service - INFO - API success: True
+2024-09-26 22:50:40 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2628.42
+2024-09-26 22:50:40 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:50:40 - app.services.api_service - INFO - API price: 2628.42
+2024-09-26 22:50:40 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:50:40 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:50:40 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:50:40 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:50:40 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:50:40 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:50:40 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:51:10 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64633.5', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64633.5, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:51:10 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:51:10 - app.services.api_service - INFO - ALERT Trigger 1727383869_BTCUSDT_64633.5
+2024-09-26 22:51:10 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:51:10 - app.services.api_service - INFO - API success: True
+2024-09-26 22:51:10 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64633.5
+2024-09-26 22:51:10 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:51:10 - app.services.api_service - INFO - API price: 64633.5
+2024-09-26 22:51:10 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:51:10 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:51:10 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:51:10 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:51:10 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:51:10 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:51:10 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:51:28 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2630.63', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2630.63, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:51:28 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:51:28 - app.services.api_service - INFO - ALERT Trigger 1727383887_ETHUSDT_2630.63
+2024-09-26 22:51:28 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:51:28 - app.services.api_service - INFO - API success: True
+2024-09-26 22:51:28 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2630.63
+2024-09-26 22:51:28 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:51:28 - app.services.api_service - INFO - API price: 2630.63
+2024-09-26 22:51:28 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:51:28 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:51:28 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:51:28 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:51:28 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:51:28 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:51:28 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:51:31 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64657.0', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64657.0, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:51:31 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:51:31 - app.services.api_service - INFO - ALERT Trigger 1727383890_BTCUSDT_64657.0
+2024-09-26 22:51:31 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:51:31 - app.services.api_service - INFO - API success: True
+2024-09-26 22:51:31 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64657.0
+2024-09-26 22:51:31 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:51:31 - app.services.api_service - INFO - API price: 64657.0
+2024-09-26 22:51:31 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:51:31 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:51:31 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:51:31 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:51:31 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:51:31 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:51:31 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:52:07 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2628.85', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2628.85, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:52:07 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:52:07 - app.services.api_service - INFO - ALERT Trigger 1727383926_ETHUSDT_2628.85
+2024-09-26 22:52:07 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:52:07 - app.services.api_service - INFO - API success: True
+2024-09-26 22:52:07 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2628.85
+2024-09-26 22:52:07 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:52:07 - app.services.api_service - INFO - API price: 2628.85
+2024-09-26 22:52:07 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:52:07 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:52:07 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:52:07 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:52:07 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:52:07 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:52:07 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:53:32 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2630.82', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2630.82, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:53:32 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:53:32 - app.services.api_service - INFO - ALERT Trigger 1727384010_ETHUSDT_2630.82
+2024-09-26 22:53:32 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:53:32 - app.services.api_service - INFO - API success: True
+2024-09-26 22:53:32 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2630.82
+2024-09-26 22:53:32 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:53:32 - app.services.api_service - INFO - API price: 2630.82
+2024-09-26 22:53:32 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:53:32 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:53:32 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:53:32 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:53:32 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:53:32 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:53:32 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:53:37 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64679.2', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64679.2, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:53:37 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:53:37 - app.services.api_service - INFO - ALERT Trigger 1727384016_BTCUSDT_64679.2
+2024-09-26 22:53:37 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:53:37 - app.services.api_service - INFO - API success: True
+2024-09-26 22:53:37 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64679.2
+2024-09-26 22:53:37 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:53:37 - app.services.api_service - INFO - API price: 64679.2
+2024-09-26 22:53:37 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:53:37 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:53:37 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:53:37 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:53:37 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:53:37 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:53:37 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 22:54:25 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2632.45', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2632.45, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 22:54:25 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:54:25 - app.services.api_service - INFO - ALERT Trigger 1727384064_ETHUSDT_2632.45
+2024-09-26 22:54:25 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 22:54:25 - app.services.api_service - INFO - API success: True
+2024-09-26 22:54:25 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2632.45
+2024-09-26 22:54:25 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 22:54:25 - app.services.api_service - INFO - API price: 2632.45
+2024-09-26 22:54:25 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 22:54:25 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:54:25 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 22:54:25 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:54:25 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 22:54:25 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 22:54:25 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 22:54:43 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64700.0', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64700.0, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 22:54:43 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 22:54:43 - app.services.api_service - INFO - ALERT Trigger 1727384082_BTCUSDT_64700.0
+2024-09-26 22:54:43 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 22:54:43 - app.services.api_service - INFO - API success: True
+2024-09-26 22:54:43 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64700.0
+2024-09-26 22:54:43 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 22:54:43 - app.services.api_service - INFO - API price: 64700.0
+2024-09-26 22:54:43 - app.services.api_service - INFO - API type: LONG
+2024-09-26 22:54:43 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 22:54:43 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 22:54:43 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 22:54:43 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 22:54:43 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 22:54:43 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:16:18 - app.services.api_service - DEBUG - Logger initialized successfully
+2024-09-26 23:16:28 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64845.7 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:16:28 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:16:28 - app.services.api_service - INFO - ALERT Trigger 1727385388_BTCUSDT_64845.7
+2024-09-26 23:16:28 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:16:28 - app.services.api_service - INFO - API success: False
+2024-09-26 23:16:28 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64845.7 skipped due to ongoing processing.
+2024-09-26 23:16:28 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API price: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API type: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:16:28 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:16:28 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:16:29 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2640.27 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:16:29 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:16:29 - app.services.api_service - INFO - ALERT Trigger 1727385389_ETHUSDT_2640.27
+2024-09-26 23:16:29 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:16:29 - app.services.api_service - INFO - API success: False
+2024-09-26 23:16:29 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2640.27 skipped due to ongoing processing.
+2024-09-26 23:16:29 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API price: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API type: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:16:29 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:16:29 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:16:42 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2641.41 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:16:42 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:16:42 - app.services.api_service - INFO - ALERT Trigger 1727385402_ETHUSDT_2641.41
+2024-09-26 23:16:42 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:16:42 - app.services.api_service - INFO - API success: False
+2024-09-26 23:16:42 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2641.41 skipped due to ongoing processing.
+2024-09-26 23:16:42 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API price: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API type: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:16:42 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:16:42 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:19:24 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2640.38 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:19:24 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:19:24 - app.services.api_service - INFO - ALERT Trigger 1727385564_ETHUSDT_2640.38
+2024-09-26 23:19:24 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:19:24 - app.services.api_service - INFO - API success: False
+2024-09-26 23:19:24 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2640.38 skipped due to ongoing processing.
+2024-09-26 23:19:24 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API price: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API type: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:19:24 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:19:24 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:19:30 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2639.27 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:19:30 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:19:30 - app.services.api_service - INFO - ALERT Trigger 1727385570_ETHUSDT_2639.27
+2024-09-26 23:19:30 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:19:30 - app.services.api_service - INFO - API success: False
+2024-09-26 23:19:30 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2639.27 skipped due to ongoing processing.
+2024-09-26 23:19:30 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API price: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API type: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:19:30 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:19:30 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:19:33 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64823.08 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:19:33 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:19:33 - app.services.api_service - INFO - ALERT Trigger 1727385573_BTCUSDT_64823.08
+2024-09-26 23:19:33 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:19:33 - app.services.api_service - INFO - API success: False
+2024-09-26 23:19:33 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64823.08 skipped due to ongoing processing.
+2024-09-26 23:19:33 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API price: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API type: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:19:33 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:19:33 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:20:09 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64849.0 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:20:09 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:20:09 - app.services.api_service - INFO - ALERT Trigger 1727385609_BTCUSDT_64849.0
+2024-09-26 23:20:09 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:20:09 - app.services.api_service - INFO - API success: False
+2024-09-26 23:20:09 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64849.0 skipped due to ongoing processing.
+2024-09-26 23:20:09 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API price: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API type: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:20:09 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:20:09 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:20:18 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2640.52 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:20:18 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:20:18 - app.services.api_service - INFO - ALERT Trigger 1727385618_ETHUSDT_2640.52
+2024-09-26 23:20:18 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:20:18 - app.services.api_service - INFO - API success: False
+2024-09-26 23:20:18 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2640.52 skipped due to ongoing processing.
+2024-09-26 23:20:18 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API price: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API type: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:20:18 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:20:18 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:20:42 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64871.3 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:20:42 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:20:42 - app.services.api_service - INFO - ALERT Trigger 1727385642_BTCUSDT_64871.3
+2024-09-26 23:20:42 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:20:42 - app.services.api_service - INFO - API success: False
+2024-09-26 23:20:42 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64871.3 skipped due to ongoing processing.
+2024-09-26 23:20:42 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API price: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API type: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:20:42 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:20:42 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:20:48 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2641.54 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:20:48 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:20:48 - app.services.api_service - INFO - ALERT Trigger 1727385648_ETHUSDT_2641.54
+2024-09-26 23:20:48 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:20:48 - app.services.api_service - INFO - API success: False
+2024-09-26 23:20:48 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2641.54 skipped due to ongoing processing.
+2024-09-26 23:20:48 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API price: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API type: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:20:48 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:20:48 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:21:43 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64880.0 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:43 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:43 - app.services.api_service - INFO - ALERT Trigger 1727385703_BTCUSDT_64880.0
+2024-09-26 23:21:43 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:21:43 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:43 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64880.0 skipped due to ongoing processing.
+2024-09-26 23:21:43 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:43 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:21:43 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:21:44 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2643.51 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:44 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:44 - app.services.api_service - INFO - ALERT Trigger 1727385704_ETHUSDT_2643.51
+2024-09-26 23:21:44 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:21:44 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:44 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2643.51 skipped due to ongoing processing.
+2024-09-26 23:21:44 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:44 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:21:44 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:21:47 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 65055.6 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:47 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:47 - app.services.api_service - INFO - ALERT Trigger 1727385707_BTCUSDT_65055.6
+2024-09-26 23:21:47 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:21:47 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:47 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 65055.6 skipped due to ongoing processing.
+2024-09-26 23:21:47 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:21:47 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:21:47 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2645.88 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:47 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:47 - app.services.api_service - INFO - ALERT Trigger 1727385707_ETHUSDT_2645.88
+2024-09-26 23:21:47 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:21:47 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:47 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2645.88 skipped due to ongoing processing.
+2024-09-26 23:21:47 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:47 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:21:47 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:21:48 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2646.92 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:48 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:48 - app.services.api_service - INFO - ALERT Trigger 1727385708_ETHUSDT_2646.92
+2024-09-26 23:21:48 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:21:48 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:48 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2646.92 skipped due to ongoing processing.
+2024-09-26 23:21:48 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:48 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:21:48 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:21:51 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 65089.0 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:51 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:51 - app.services.api_service - INFO - ALERT Trigger 1727385711_BTCUSDT_65089.0
+2024-09-26 23:21:51 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:21:51 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:51 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 65089.0 skipped due to ongoing processing.
+2024-09-26 23:21:51 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:51 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:21:51 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:21:54 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 65061.24 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:54 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:54 - app.services.api_service - INFO - ALERT Trigger 1727385714_BTCUSDT_65061.24
+2024-09-26 23:21:54 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:21:54 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:54 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 65061.24 skipped due to ongoing processing.
+2024-09-26 23:21:54 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:54 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:21:54 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:21:55 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2645.9 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:55 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:55 - app.services.api_service - INFO - ALERT Trigger 1727385715_ETHUSDT_2645.9
+2024-09-26 23:21:55 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:21:55 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:55 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2645.9 skipped due to ongoing processing.
+2024-09-26 23:21:55 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:55 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:21:55 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:21:57 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 65026.63 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:21:57 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:21:57 - app.services.api_service - INFO - ALERT Trigger 1727385717_BTCUSDT_65026.63
+2024-09-26 23:21:57 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:21:57 - app.services.api_service - INFO - API success: False
+2024-09-26 23:21:57 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 65026.63 skipped due to ongoing processing.
+2024-09-26 23:21:57 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API price: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API type: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:21:57 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:21:57 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:12 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64999.47 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:12 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:12 - app.services.api_service - INFO - ALERT Trigger 1727385732_BTCUSDT_64999.47
+2024-09-26 23:22:12 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:12 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:12 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64999.47 skipped due to ongoing processing.
+2024-09-26 23:22:12 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:12 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:12 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:13 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2644.79 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:13 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:13 - app.services.api_service - INFO - ALERT Trigger 1727385733_ETHUSDT_2644.79
+2024-09-26 23:22:13 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:22:13 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:13 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2644.79 skipped due to ongoing processing.
+2024-09-26 23:22:13 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:13 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:22:13 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:22:15 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64948.4 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:15 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:15 - app.services.api_service - INFO - ALERT Trigger 1727385735_BTCUSDT_64948.4
+2024-09-26 23:22:15 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:15 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:15 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64948.4 skipped due to ongoing processing.
+2024-09-26 23:22:15 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:15 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:15 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2643.56 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:15 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:15 - app.services.api_service - INFO - ALERT Trigger 1727385735_ETHUSDT_2643.56
+2024-09-26 23:22:15 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:22:15 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:15 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2643.56 skipped due to ongoing processing.
+2024-09-26 23:22:15 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:15 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:22:15 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:22:21 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64925.81 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:21 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:21 - app.services.api_service - INFO - ALERT Trigger 1727385741_BTCUSDT_64925.81
+2024-09-26 23:22:21 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:21 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:21 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64925.81 skipped due to ongoing processing.
+2024-09-26 23:22:21 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:21 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:21 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:27 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64982.4 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:27 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:27 - app.services.api_service - INFO - ALERT Trigger 1727385747_BTCUSDT_64982.4
+2024-09-26 23:22:27 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:27 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:27 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64982.4 skipped due to ongoing processing.
+2024-09-26 23:22:27 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:27 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:27 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:33 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64937.84 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:33 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:33 - app.services.api_service - INFO - ALERT Trigger 1727385753_BTCUSDT_64937.84
+2024-09-26 23:22:33 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:33 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:33 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64937.84 skipped due to ongoing processing.
+2024-09-26 23:22:33 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:33 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:33 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:39 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64962.3 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:39 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:39 - app.services.api_service - INFO - ALERT Trigger 1727385759_BTCUSDT_64962.3
+2024-09-26 23:22:39 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:39 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:39 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64962.3 skipped due to ongoing processing.
+2024-09-26 23:22:39 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:39 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:39 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:51 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64938.46 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:51 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:51 - app.services.api_service - INFO - ALERT Trigger 1727385771_BTCUSDT_64938.46
+2024-09-26 23:22:51 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:22:51 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:51 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64938.46 skipped due to ongoing processing.
+2024-09-26 23:22:51 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:51 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:22:51 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:22:54 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2641.51 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:22:54 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:22:54 - app.services.api_service - INFO - ALERT Trigger 1727385774_ETHUSDT_2641.51
+2024-09-26 23:22:54 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:22:54 - app.services.api_service - INFO - API success: False
+2024-09-26 23:22:54 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2641.51 skipped due to ongoing processing.
+2024-09-26 23:22:54 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API price: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API type: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:22:54 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:22:54 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:23:03 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64918.46 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:23:03 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:23:03 - app.services.api_service - INFO - ALERT Trigger 1727385783_BTCUSDT_64918.46
+2024-09-26 23:23:03 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:23:03 - app.services.api_service - INFO - API success: False
+2024-09-26 23:23:03 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64918.46 skipped due to ongoing processing.
+2024-09-26 23:23:03 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API price: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API type: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:23:03 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:23:03 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2640.42 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:23:03 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:23:03 - app.services.api_service - INFO - ALERT Trigger 1727385783_ETHUSDT_2640.42
+2024-09-26 23:23:03 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:23:03 - app.services.api_service - INFO - API success: False
+2024-09-26 23:23:03 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2640.42 skipped due to ongoing processing.
+2024-09-26 23:23:03 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API price: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API type: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:23:03 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:23:03 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:23:15 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': False, 'message': 'Price alert for ETHUSDT at 2639.13 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:23:15 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:23:15 - app.services.api_service - INFO - ALERT Trigger 1727385795_ETHUSDT_2639.13
+2024-09-26 23:23:15 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:23:15 - app.services.api_service - INFO - API success: False
+2024-09-26 23:23:15 - app.services.api_service - INFO - API message: Price alert for ETHUSDT at 2639.13 skipped due to ongoing processing.
+2024-09-26 23:23:15 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API price: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API type: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:23:15 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:23:15 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:23:26 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': False, 'message': 'Price alert for BTCUSDT at 64928.2 skipped due to ongoing processing.', 'position_id': '', 'symbol': '', 'price': '', 'type': '', 'isHedgeOpen': '', 'trigger': '', 'trigger_success': '', 'trigger_message': ''}
+2024-09-26 23:23:26 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:23:26 - app.services.api_service - INFO - ALERT Trigger 1727385806_BTCUSDT_64928.2
+2024-09-26 23:23:26 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:23:26 - app.services.api_service - INFO - API success: False
+2024-09-26 23:23:26 - app.services.api_service - INFO - API message: Price alert for BTCUSDT at 64928.2 skipped due to ongoing processing.
+2024-09-26 23:23:26 - app.services.api_service - INFO - API position_id: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API price: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API type: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API isHedgeOpen: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API trigger: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API trigger_success: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - API trigger_message: 
+2024-09-26 23:23:26 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:23:26 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:23:30 - app.services.api_service - ERROR - Failed to trigger API price change for ETHUSDT. Status code: 500
+2024-09-26 23:23:30 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:23:31 - app.services.api_service - ERROR - Failed to trigger API price change for BTCUSDT. Status code: 500
+2024-09-26 23:23:31 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:23:32 - app.services.api_service - ERROR - Failed to trigger API price change for ETHUSDT. Status code: 500
+2024-09-26 23:23:32 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:24:15 - app.services.api_service - ERROR - Failed to trigger API price change for BTCUSDT. Status code: 500
+2024-09-26 23:24:15 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:24:24 - app.services.api_service - ERROR - Failed to trigger API price change for BTCUSDT. Status code: 500
+2024-09-26 23:24:24 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:24:30 - app.services.api_service - ERROR - Failed to trigger API price change for ETHUSDT. Status code: 500
+2024-09-26 23:24:30 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:24:42 - app.services.api_service - ERROR - Failed to trigger API price change for ETHUSDT. Status code: 500
+2024-09-26 23:24:42 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:25:02 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64920.61', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64920.61, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:25:02 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:02 - app.services.api_service - INFO - ALERT Trigger 1727385900_BTCUSDT_64920.61
+2024-09-26 23:25:02 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:25:02 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:02 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64920.61
+2024-09-26 23:25:02 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:25:02 - app.services.api_service - INFO - API price: 64920.61
+2024-09-26 23:25:02 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:25:02 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:02 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:25:02 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:02 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:25:02 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:25:02 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:25:07 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2637.03', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2637.03, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 23:25:07 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:07 - app.services.api_service - INFO - ALERT Trigger 1727385906_ETHUSDT_2637.03
+2024-09-26 23:25:07 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:25:07 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:07 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2637.03
+2024-09-26 23:25:07 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 23:25:07 - app.services.api_service - INFO - API price: 2637.03
+2024-09-26 23:25:07 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 23:25:07 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:07 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 23:25:07 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:07 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 23:25:07 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:25:07 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:25:10 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64886.23', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64886.23, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:25:10 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:10 - app.services.api_service - INFO - ALERT Trigger 1727385909_BTCUSDT_64886.23
+2024-09-26 23:25:10 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:25:10 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:10 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64886.23
+2024-09-26 23:25:10 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:25:10 - app.services.api_service - INFO - API price: 64886.23
+2024-09-26 23:25:10 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:25:10 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:10 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:25:10 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:10 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:25:10 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:25:10 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:25:16 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2635.87', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2635.87, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 23:25:16 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:16 - app.services.api_service - INFO - ALERT Trigger 1727385915_ETHUSDT_2635.87
+2024-09-26 23:25:16 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:25:16 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:16 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2635.87
+2024-09-26 23:25:16 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 23:25:16 - app.services.api_service - INFO - API price: 2635.87
+2024-09-26 23:25:16 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 23:25:16 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:16 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 23:25:16 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:16 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 23:25:16 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:25:16 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:25:37 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2636.96', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2636.96, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 23:25:37 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:37 - app.services.api_service - INFO - ALERT Trigger 1727385936_ETHUSDT_2636.96
+2024-09-26 23:25:37 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:25:37 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:37 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2636.96
+2024-09-26 23:25:37 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 23:25:37 - app.services.api_service - INFO - API price: 2636.96
+2024-09-26 23:25:37 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 23:25:37 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:37 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 23:25:37 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:37 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 23:25:37 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:25:37 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:25:43 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64906.5', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64906.5, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:25:43 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:43 - app.services.api_service - INFO - ALERT Trigger 1727385942_BTCUSDT_64906.5
+2024-09-26 23:25:43 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:25:43 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:43 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64906.5
+2024-09-26 23:25:43 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:25:43 - app.services.api_service - INFO - API price: 64906.5
+2024-09-26 23:25:43 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:25:43 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:43 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:25:43 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:43 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:25:43 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:25:43 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:25:58 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64885.26', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64885.26, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:25:58 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:25:58 - app.services.api_service - INFO - ALERT Trigger 1727385957_BTCUSDT_64885.26
+2024-09-26 23:25:58 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:25:58 - app.services.api_service - INFO - API success: True
+2024-09-26 23:25:58 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64885.26
+2024-09-26 23:25:58 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:25:58 - app.services.api_service - INFO - API price: 64885.26
+2024-09-26 23:25:58 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:25:58 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:25:58 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:25:58 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:25:58 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:25:58 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:25:58 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:26:10 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64864.96', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64864.96, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:26:10 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:26:10 - app.services.api_service - INFO - ALERT Trigger 1727385969_BTCUSDT_64864.96
+2024-09-26 23:26:10 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:26:10 - app.services.api_service - INFO - API success: True
+2024-09-26 23:26:10 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64864.96
+2024-09-26 23:26:10 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:26:10 - app.services.api_service - INFO - API price: 64864.96
+2024-09-26 23:26:10 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:26:10 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:26:10 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:26:10 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:26:10 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:26:10 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:26:10 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:26:16 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64893.3', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64893.3, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:26:16 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:26:16 - app.services.api_service - INFO - ALERT Trigger 1727385975_BTCUSDT_64893.3
+2024-09-26 23:26:16 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:26:16 - app.services.api_service - INFO - API success: True
+2024-09-26 23:26:16 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64893.3
+2024-09-26 23:26:16 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:26:16 - app.services.api_service - INFO - API price: 64893.3
+2024-09-26 23:26:16 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:26:16 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:26:16 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:26:16 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:26:16 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:26:16 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:26:16 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:26:40 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64871.9', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64871.9, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:26:40 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:26:40 - app.services.api_service - INFO - ALERT Trigger 1727385999_BTCUSDT_64871.9
+2024-09-26 23:26:40 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:26:40 - app.services.api_service - INFO - API success: True
+2024-09-26 23:26:40 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64871.9
+2024-09-26 23:26:40 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:26:40 - app.services.api_service - INFO - API price: 64871.9
+2024-09-26 23:26:40 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:26:40 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:26:40 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:26:40 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:26:40 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:26:40 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:26:40 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:26:52 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64844.2', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64844.2, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:26:52 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:26:52 - app.services.api_service - INFO - ALERT Trigger 1727386011_BTCUSDT_64844.2
+2024-09-26 23:26:52 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:26:52 - app.services.api_service - INFO - API success: True
+2024-09-26 23:26:52 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64844.2
+2024-09-26 23:26:52 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:26:52 - app.services.api_service - INFO - API price: 64844.2
+2024-09-26 23:26:52 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:26:52 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:26:52 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:26:52 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:26:52 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:26:52 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:26:52 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:27:16 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64864.9', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64864.9, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:27:16 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:27:16 - app.services.api_service - INFO - ALERT Trigger 1727386035_BTCUSDT_64864.9
+2024-09-26 23:27:16 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:27:16 - app.services.api_service - INFO - API success: True
+2024-09-26 23:27:16 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64864.9
+2024-09-26 23:27:16 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:27:16 - app.services.api_service - INFO - API price: 64864.9
+2024-09-26 23:27:16 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:27:16 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:27:16 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:27:16 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:27:16 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:27:16 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:27:16 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:27:28 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2635.66', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2635.66, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 23:27:28 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:27:28 - app.services.api_service - INFO - ALERT Trigger 1727386047_ETHUSDT_2635.66
+2024-09-26 23:27:28 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:27:28 - app.services.api_service - INFO - API success: True
+2024-09-26 23:27:28 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2635.66
+2024-09-26 23:27:28 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 23:27:28 - app.services.api_service - INFO - API price: 2635.66
+2024-09-26 23:27:28 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 23:27:28 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:27:28 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 23:27:28 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:27:28 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 23:27:28 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:27:28 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
+2024-09-26 23:27:34 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64839.54', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64839.54, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:27:34 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:27:34 - app.services.api_service - INFO - ALERT Trigger 1727386053_BTCUSDT_64839.54
+2024-09-26 23:27:34 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:27:34 - app.services.api_service - INFO - API success: True
+2024-09-26 23:27:34 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64839.54
+2024-09-26 23:27:34 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:27:34 - app.services.api_service - INFO - API price: 64839.54
+2024-09-26 23:27:34 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:27:34 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:27:34 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:27:34 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:27:34 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:27:34 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:27:34 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:28:04 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Processed price alert for BTCUSDT at 64819.22', 'position_id': 'BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74', 'symbol': 'BTCUSDT', 'price': 64819.22, 'type': 'LONG', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_long', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_long'}
+2024-09-26 23:28:04 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:28:04 - app.services.api_service - INFO - ALERT Trigger 1727386083_BTCUSDT_64819.22
+2024-09-26 23:28:04 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-26 23:28:04 - app.services.api_service - INFO - API success: True
+2024-09-26 23:28:04 - app.services.api_service - INFO - API message: Processed price alert for BTCUSDT at 64819.22
+2024-09-26 23:28:04 - app.services.api_service - INFO - API position_id: BTCUSDT_LONG_492ba4aa-3829-41c3-8dc4-3a4556f42d74
+2024-09-26 23:28:04 - app.services.api_service - INFO - API price: 64819.22
+2024-09-26 23:28:04 - app.services.api_service - INFO - API type: LONG
+2024-09-26 23:28:04 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:28:04 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_long
+2024-09-26 23:28:04 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:28:04 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_long
+2024-09-26 23:28:04 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-26 23:28:04 - app.services.api_service - INFO - Finished processing the alert for BTCUSDT.
+2024-09-26 23:28:05 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Processed price alert for ETHUSDT at 2634.35', 'position_id': 'ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe', 'symbol': 'ETHUSDT', 'price': 2634.35, 'type': 'SHORT', 'isHedgeOpen': False, 'trigger': 'between_entry_stop_loss_hedge_short', 'trigger_success': False, 'trigger_message': 'started between_entry_stop_loss_hedge_short'}
+2024-09-26 23:28:05 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-26 23:28:05 - app.services.api_service - INFO - ALERT Trigger 1727386084_ETHUSDT_2634.35
+2024-09-26 23:28:05 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-26 23:28:05 - app.services.api_service - INFO - API success: True
+2024-09-26 23:28:05 - app.services.api_service - INFO - API message: Processed price alert for ETHUSDT at 2634.35
+2024-09-26 23:28:05 - app.services.api_service - INFO - API position_id: ETHUSDT_SHORT_59326777-435d-447a-a875-f84b66586ebe
+2024-09-26 23:28:05 - app.services.api_service - INFO - API price: 2634.35
+2024-09-26 23:28:05 - app.services.api_service - INFO - API type: SHORT
+2024-09-26 23:28:05 - app.services.api_service - INFO - API isHedgeOpen: False
+2024-09-26 23:28:05 - app.services.api_service - INFO - API trigger: between_entry_stop_loss_hedge_short
+2024-09-26 23:28:05 - app.services.api_service - INFO - API trigger_success: False
+2024-09-26 23:28:05 - app.services.api_service - INFO - API trigger_message: started between_entry_stop_loss_hedge_short
+2024-09-26 23:28:05 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-26 23:28:05 - app.services.api_service - INFO - Finished processing the alert for ETHUSDT.
