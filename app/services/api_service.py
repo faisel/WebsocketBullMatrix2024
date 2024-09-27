@@ -73,13 +73,6 @@ async def trigger_price_change(alert):
                         logger.info(f"STARTED API response for {symbol}")
                         logger.info(f"API success: {result.get('success')}")
                         logger.info(f"API message: {result.get('message', 'No message provided')}")
-                        logger.info(f"API position_id: {result.get('position_id', 'N/A')}")
-                        logger.info(f"API price: {result.get('price', 'N/A')}")
-                        logger.info(f"API type: {result.get('type', 'N/A')}")
-                        logger.info(f"API isHedgeOpen: {result.get('isHedgeOpen', 'N/A')}")
-                        logger.info(f"API trigger: {result.get('trigger', 'N/A')}")
-                        logger.info(f"API trigger_success: {result.get('trigger_success', 'N/A')}")
-                        logger.info(f"API trigger_message: {result.get('trigger_message', 'No trigger message')}")
                         logger.info(f"END API response for {symbol}")
                     else:
                         logger.warning(f"API response for {symbol} is missing 'success' key or is malformed.")
@@ -102,7 +95,7 @@ async def trigger_price_change(alert):
 
             # Release the processing flag
             symbol_processing[symbol] = False
-            logger.info(f"Processing complete for {symbol}, lock released.")
+            logger.info(f"PROCESSING completed for {symbol}, lock released.\n \n \n")
 
 
 

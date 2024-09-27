@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'Just Final fine tune'
+git commit -m 'API response updated'
 git push origin main
 
 
