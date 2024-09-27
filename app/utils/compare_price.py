@@ -20,7 +20,7 @@ is_processing = False
 
 
 async def compare_and_update_price(new_data):
-    MAX_PRICE_DIFF_BTC = 60
+    MAX_PRICE_DIFF_BTC = 50
     MIN_PRICE_DIFF_BTC = 5
 
     MAX_PRICE_DIFF_ETH = 10

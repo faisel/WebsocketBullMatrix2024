@@ -14,10 +14,6 @@ latest_alerts = {"BTCUSDT": None, "ETHUSDT": None}
 
 
 
-
-
-
-
 async def trigger_price_change(alert):
     symbol = alert['symbol']
     alert['price'] = str(round(float(alert['price']), 2))

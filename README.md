@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'trigger lock updated'
+git commit -m 'max price updated'
 git push origin main
 
 
