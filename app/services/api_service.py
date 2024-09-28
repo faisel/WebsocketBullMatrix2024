@@ -46,7 +46,7 @@ async def trigger_price_change(alert):
         symbol_processing[symbol] = True  # Set the flag to indicate processing has started
 
         # Wait for API response with a 5-second timeout
-        timeout = 5  # seconds
+        timeout = 10  # seconds
         url = settings.PRICE_CHANGE_API_URL
         headers = {"Content-Type": "application/json"}
 
