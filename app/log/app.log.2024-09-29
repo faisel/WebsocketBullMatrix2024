@@ -1,0 +1,223 @@
+2024-09-29 00:03:46 - app.services.api_service - DEBUG - Logger initialized successfully
+2024-09-29 00:03:58 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:03:58 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561038_BTCUSDT_65680.28
+2024-09-29 00:03:58 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:03:58', 'servertime': 'Sep 28 22:03:58', 'timestamp': 1727561037.0, 'symbol': 'BTCUSDT', 'price': '65680.28', 'price_big_p': '65680.27724823', 'price_i': '65680.27724823', 'price_diff': '10.22275176999392', 'is_big_diff': True}
+2024-09-29 00:03:58 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:03:58 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:03:58 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:04:27 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:04:27 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561067_BTCUSDT_65663.68
+2024-09-29 00:04:27 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:04:27', 'servertime': 'Sep 28 22:04:27', 'timestamp': 1727561067.0, 'symbol': 'BTCUSDT', 'price': '65663.68', 'price_big_p': '65663.67695035', 'price_i': '65663.67695035', 'price_diff': '16.603049650002504', 'is_big_diff': True}
+2024-09-29 00:04:27 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:04:27 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:04:27 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:04:30 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:04:30 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561070_ETHUSDT_2670.92
+2024-09-29 00:04:30 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:04:30', 'servertime': 'Sep 28 22:04:30', 'timestamp': 1727561070.0, 'symbol': 'ETHUSDT', 'price': '2670.92', 'price_big_p': '2670.92465152', 'price_i': '2670.92465152', 'price_diff': '1.0653484799995567', 'is_big_diff': True}
+2024-09-29 00:04:30 - app.services.api_service - ERROR - Failed to trigger API for ETHUSDT, status code: 500
+2024-09-29 00:04:30 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:04:30 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:04:33 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:04:33 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561073_BTCUSDT_65647.61
+2024-09-29 00:04:33 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:04:33', 'servertime': 'Sep 28 22:04:33', 'timestamp': 1727561073.0, 'symbol': 'BTCUSDT', 'price': '65647.61', 'price_big_p': '65647.61404965', 'price_i': '65647.61404965', 'price_diff': '16.06595034999191', 'is_big_diff': True}
+2024-09-29 00:04:33 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:04:33 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:04:33 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:04:48 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:04:48 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561088_ETHUSDT_2669.85
+2024-09-29 00:04:48 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:04:48', 'servertime': 'Sep 28 22:04:48', 'timestamp': 1727561088.0, 'symbol': 'ETHUSDT', 'price': '2669.85', 'price_big_p': '2669.84693939', 'price_i': '2669.84693939', 'price_diff': '1.0730606100000841', 'is_big_diff': True}
+2024-09-29 00:04:48 - app.services.api_service - ERROR - Failed to trigger API for ETHUSDT, status code: 500
+2024-09-29 00:04:48 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:04:48 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:05:09 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:05:09 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561109_BTCUSDT_65658.0
+2024-09-29 00:05:09 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:05:09', 'servertime': 'Sep 28 22:05:09', 'timestamp': 1727561109.0, 'symbol': 'BTCUSDT', 'price': '65658.0', 'price_big_p': '65658.00000000', 'price_i': '65658.00000000', 'price_diff': '10.389999999999418', 'is_big_diff': True}
+2024-09-29 00:05:09 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:05:09 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:05:09 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:05:15 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:05:15 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561115_BTCUSDT_65673.8
+2024-09-29 00:05:15 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:05:15', 'servertime': 'Sep 28 22:05:15', 'timestamp': 1727561115.0, 'symbol': 'BTCUSDT', 'price': '65673.8', 'price_big_p': '65673.80000000', 'price_i': '65673.80000000', 'price_diff': '15.80000000000291', 'is_big_diff': True}
+2024-09-29 00:05:15 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:05:15 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:05:15 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:05:24 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:05:24 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561124_BTCUSDT_65663.4
+2024-09-29 00:05:24 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:05:24', 'servertime': 'Sep 28 22:05:24', 'timestamp': 1727561124.0, 'symbol': 'BTCUSDT', 'price': '65663.4', 'price_big_p': '65663.40000000', 'price_i': '65663.40000000', 'price_diff': '10.400000000008731', 'is_big_diff': True}
+2024-09-29 00:05:24 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:05:24 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:05:24 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:05:51 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:05:51 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561151_BTCUSDT_65652.7
+2024-09-29 00:05:51 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:05:51', 'servertime': 'Sep 28 22:05:51', 'timestamp': 1727561151.0, 'symbol': 'BTCUSDT', 'price': '65652.7', 'price_big_p': '65652.70000000', 'price_i': '65652.70000000', 'price_diff': '10.69999999999709', 'is_big_diff': True}
+2024-09-29 00:05:51 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:05:51 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:05:51 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:06:24 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:06:24 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561184_BTCUSDT_65641.98
+2024-09-29 00:06:24 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:06:24', 'servertime': 'Sep 28 22:06:24', 'timestamp': 1727561184.0, 'symbol': 'BTCUSDT', 'price': '65641.98', 'price_big_p': '65641.97616312', 'price_i': '65641.97616312', 'price_diff': '10.723836880002636', 'is_big_diff': True}
+2024-09-29 00:06:24 - app.services.api_service - ERROR - Failed to trigger API for BTCUSDT, status code: 500
+2024-09-29 00:06:24 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:06:24 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:06:51 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:06:51 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561211_ETHUSDT_2668.64
+2024-09-29 00:06:51 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:06:51', 'servertime': 'Sep 28 22:06:51', 'timestamp': 1727561211.0, 'symbol': 'ETHUSDT', 'price': '2668.64', 'price_big_p': '2668.63518182', 'price_i': '2668.63518182', 'price_diff': '1.2148181799998383', 'is_big_diff': True}
+2024-09-29 00:06:51 - app.services.api_service - ERROR - Failed to trigger API for ETHUSDT, status code: 500
+2024-09-29 00:06:51 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:06:51 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:09 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:07:09 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561229_ETHUSDT_2667.46
+2024-09-29 00:07:09 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:09', 'servertime': 'Sep 28 22:07:09', 'timestamp': 1727561229.0, 'symbol': 'ETHUSDT', 'price': '2667.46', 'price_big_p': '2667.46000000', 'price_i': '2667.46000000', 'price_diff': '1.1799999999998363', 'is_big_diff': True}
+2024-09-29 00:07:09 - app.services.api_service - ERROR - Failed to trigger API for ETHUSDT, status code: 500
+2024-09-29 00:07:09 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:07:09 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:24 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:07:24 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561244_BTCUSDT_65630.54
+2024-09-29 00:07:24 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:24', 'servertime': 'Sep 28 22:07:24', 'timestamp': 1727561244.0, 'symbol': 'BTCUSDT', 'price': '65630.54', 'price_big_p': '65630.54242553', 'price_i': '65630.54242553', 'price_diff': '11.437574469993706', 'is_big_diff': True}
+2024-09-29 00:07:28 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Success process_price for BTCUSDT at 65630.54'}
+2024-09-29 00:07:28 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:28 - app.services.api_service - INFO - ALERT Trigger 1727561244_BTCUSDT_65630.54
+2024-09-29 00:07:28 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-29 00:07:28 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:28 - app.services.api_service - INFO - API message: Success process_price for BTCUSDT at 65630.54
+2024-09-29 00:07:28 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-29 00:07:28 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:07:28 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:28 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:07:28 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561248_ETHUSDT_2666.21
+2024-09-29 00:07:28 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:28', 'servertime': 'Sep 28 22:07:28', 'timestamp': 1727561247.0, 'symbol': 'ETHUSDT', 'price': '2666.21', 'price_big_p': '2666.21075000', 'price_i': '2666.21075000', 'price_diff': '1.2492499999998472', 'is_big_diff': True}
+2024-09-29 00:07:29 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Success process_price for ETHUSDT at 2666.21'}
+2024-09-29 00:07:29 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:29 - app.services.api_service - INFO - ALERT Trigger 1727561248_ETHUSDT_2666.21
+2024-09-29 00:07:29 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-29 00:07:29 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:29 - app.services.api_service - INFO - API message: Success process_price for ETHUSDT at 2666.21
+2024-09-29 00:07:29 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-29 00:07:29 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:07:29 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:30 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:07:30 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561250_BTCUSDT_65612.71
+2024-09-29 00:07:30 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:30', 'servertime': 'Sep 28 22:07:30', 'timestamp': 1727561250.0, 'symbol': 'BTCUSDT', 'price': '65612.71', 'price_big_p': '65612.70642553', 'price_i': '65612.70642553', 'price_diff': '17.83357446998707', 'is_big_diff': True}
+2024-09-29 00:07:31 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Success process_price for BTCUSDT at 65612.71'}
+2024-09-29 00:07:31 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:31 - app.services.api_service - INFO - ALERT Trigger 1727561250_BTCUSDT_65612.71
+2024-09-29 00:07:31 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-29 00:07:31 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:31 - app.services.api_service - INFO - API message: Success process_price for BTCUSDT at 65612.71
+2024-09-29 00:07:31 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-29 00:07:31 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:07:31 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:33 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:07:33 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561253_BTCUSDT_65571.68
+2024-09-29 00:07:33 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:33', 'servertime': 'Sep 28 22:07:33', 'timestamp': 1727561253.0, 'symbol': 'BTCUSDT', 'price': '65571.68', 'price_big_p': '65571.67744681', 'price_i': '65571.67744681', 'price_diff': '41.032553190001636', 'is_big_diff': True}
+2024-09-29 00:07:34 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Success process_price for BTCUSDT at 65571.68'}
+2024-09-29 00:07:34 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:34 - app.services.api_service - INFO - ALERT Trigger 1727561253_BTCUSDT_65571.68
+2024-09-29 00:07:34 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-29 00:07:34 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:34 - app.services.api_service - INFO - API message: Success process_price for BTCUSDT at 65571.68
+2024-09-29 00:07:34 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-29 00:07:34 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:07:34 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:35 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-29 00:07:35 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727561255_ETHUSDT_2664.52
+2024-09-29 00:07:35 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:35', 'servertime': 'Sep 28 22:07:35', 'timestamp': 1727561253.0, 'symbol': 'ETHUSDT', 'price': '2664.52', 'price_big_p': '2664.51717424', 'price_i': '2664.51717424', 'price_diff': '1.6928257600002325', 'is_big_diff': True}
+2024-09-29 00:07:36 - app.services.api_service - INFO - Received API response for ETHUSDT: {'success': True, 'message': 'Success process_price for ETHUSDT at 2664.52'}
+2024-09-29 00:07:36 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:36 - app.services.api_service - INFO - ALERT Trigger 1727561255_ETHUSDT_2664.52
+2024-09-29 00:07:36 - app.services.api_service - INFO - STARTED API response for ETHUSDT
+2024-09-29 00:07:36 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:36 - app.services.api_service - INFO - API message: Success process_price for ETHUSDT at 2664.52
+2024-09-29 00:07:36 - app.services.api_service - INFO - END API response for ETHUSDT
+2024-09-29 00:07:36 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-29 00:07:36 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+
+2024-09-29 00:07:36 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-29 00:07:36 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727561256_BTCUSDT_65558.55
+2024-09-29 00:07:36 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 29 00:07:36', 'servertime': 'Sep 28 22:07:36', 'timestamp': 1727561256.0, 'symbol': 'BTCUSDT', 'price': '65558.55', 'price_big_p': '65558.54723404', 'price_i': '65558.54723404', 'price_diff': '13.132765959991957', 'is_big_diff': True}
+2024-09-29 00:07:37 - app.services.api_service - INFO - Received API response for BTCUSDT: {'success': True, 'message': 'Success process_price for BTCUSDT at 65558.55'}
+2024-09-29 00:07:37 - app.services.api_service - INFO - 
+ 
+ 
+ 
+
+2024-09-29 00:07:37 - app.services.api_service - INFO - ALERT Trigger 1727561256_BTCUSDT_65558.55
+2024-09-29 00:07:37 - app.services.api_service - INFO - STARTED API response for BTCUSDT
+2024-09-29 00:07:37 - app.services.api_service - INFO - API success: True
+2024-09-29 00:07:37 - app.services.api_service - INFO - API message: Success process_price for BTCUSDT at 65558.55
+2024-09-29 00:07:37 - app.services.api_service - INFO - END API response for BTCUSDT
+2024-09-29 00:07:37 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-29 00:07:37 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+

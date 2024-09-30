@@ -29,7 +29,13 @@ async def startup_event():
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Bullmatrix WebSocket"}
+    return {
+        "message": "Welcome to Bullmatrix WebSocket",
+        "/price": "get the live price",
+        "/logs": "get the logs",
+        "/logs-empty": "empty logs, app.log",
+        "/data": "get files from /data/ - data/btcusdt_price.json or data/ethusdt_price.json or data/matrix_config.json"
+        }
 
 @app.get("/price")
 async def read_root(request: Request):

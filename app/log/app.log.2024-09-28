@@ -1,0 +1,19 @@
+2024-09-28 07:49:06 - app.services.api_service - DEBUG - Logger initialized successfully
+2024-09-28 07:49:23 - app.services.api_service - INFO - Checking lock for BTCUSDT
+2024-09-28 07:49:23 - app.services.api_service - INFO - Lock acquired for BTCUSDT, starting processing for 1727502563_BTCUSDT_65940.0
+2024-09-28 07:49:23 - app.services.api_service - INFO - Sending API request for BTCUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 28 07:49:18', 'servertime': 'Sep 28 05:49:18', 'timestamp': 1727502558.0, 'symbol': 'BTCUSDT', 'price': '65940.0', 'price_big_p': '65942.03756028', 'price_i': '65942.03756028', 'price_diff': '180.53756028000498', 'is_big_diff': True}
+2024-09-28 07:49:28 - app.services.api_service - WARNING - API call for BTCUSDT timed out after 5 seconds.
+2024-09-28 07:49:28 - app.services.api_service - INFO - Completed processing for BTCUSDT with no newer alert.
+2024-09-28 07:49:28 - app.services.api_service - INFO - PROCESSING completed for BTCUSDT, lock released.
+ 
+ 
+
+2024-09-28 07:49:28 - app.services.api_service - INFO - Checking lock for ETHUSDT
+2024-09-28 07:49:28 - app.services.api_service - INFO - Lock acquired for ETHUSDT, starting processing for 1727502568_ETHUSDT_2687.68
+2024-09-28 07:49:28 - app.services.api_service - INFO - Sending API request for ETHUSDT: {'BULLMATRIX_API_KEY': '0cce3DB04ed7-e645-4b16-8786-b260a34f5Z47433ab32', 'apptime': 'Sep 28 07:49:28', 'servertime': 'Sep 28 05:49:28', 'timestamp': 1727502558.0, 'symbol': 'ETHUSDT', 'price': '2687.68', 'price_big_p': '2687.68294219', 'price_i': '2687.68294219', 'price_diff': '3.647057809999751', 'is_big_diff': True}
+2024-09-28 07:49:33 - app.services.api_service - WARNING - API call for ETHUSDT timed out after 5 seconds.
+2024-09-28 07:49:33 - app.services.api_service - INFO - Completed processing for ETHUSDT with no newer alert.
+2024-09-28 07:49:33 - app.services.api_service - INFO - PROCESSING completed for ETHUSDT, lock released.
+ 
+ 
+

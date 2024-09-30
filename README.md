@@ -33,7 +33,7 @@ git reset --hard
 
 # Git
 git add .
-git commit -m 'API response updated again'
+git commit -m 'home page text updated'
 git push origin main
 
 
